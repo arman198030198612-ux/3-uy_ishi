@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.container{
+    width: 1340px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar button{
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 24px;
+    padding: 17px 57px;
+}
+.til-organish{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lampa{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.lampa h1{
+    font-weight: 600;
+    width: 386px;
+    font-size: 60px;
+}
+.til-organish p{
+    padding-top: 40px;
+    padding-bottom: 93px;
+    color: #8F95A5;
+    font-size: 24px;
+    font-weight: 400px;
+}
+.til-organish button{
+    padding: 32px 117px;
+    background-color: #263238;
+    border-radius: 15px;
+    font-size: 36px;
+    color: white;
+    border: none;
+}
+#skills-hero{
+    padding-bottom: 60px;
+}
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 103px;
+    padding-bottom: 92px;
+    font-size: 48px;
+    font-weight: 400px;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+}
+.card{
+    height: 894px;
+    border-radius: 10px;
+    width: 435px;
+    padding: 35px 22px;
+    background-color: #F5F5F5;
+}
+.card h1{
+    padding-bottom: 25px;
+    width: 144px;
+    font-size: 30px;
+    font-weight: 600px;
+    color: #263238;
+}
+.card p{
+    color: #8F95A5;
+    font-size: 16px;
+    font-weight: 400px;
+}
+.card button{
+    margin-top: 36px;
+    margin-bottom: 42px;
+    background-color: #263238;
+    color: white;
+    font-size: 18px;
+    font-weight: 500px;
+    padding: 17px 63px;
+    border-radius: 5px ;
+    border: none;
+}
+.card2 img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cards-2{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card-2{
+    height: 531px;
+    width: 434px;
+    padding: 4px 42px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+.card-2 h1{
+    padding-top: 5px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-weight: 600px;
+}
+.card-2 p{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #8F95A5;
+    padding-bottom: 33px;
+}
+.card-2 button{
+    padding: 15px 51px;
+    background-color: #263238;
+    color: white;
+    font-size: 20px;
+    font-weight: 500px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 44px;
+}
+.big-card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.listening-cards{
+    border-radius: 10px;
+    width: 885px ;
+    height: 343px;
+    display: flex;
+    align-items: center;
+    padding: 60px 25px 68px 48px;
+    background-color: #F5F5F5;
+}
+.listening-card h1{
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-weight: 600px;
+}
+.listening-card p{
+    color: #8F95A5;
+    padding-bottom: 25px;
+}
+.listening-card button{
+    padding: 15px 51px;
+    background-color: #263238;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
